@@ -49,9 +49,11 @@ module.exports = {
 
   async updateUser(req, res) {
     try {
-      const user = await User.findByIdAndUpdate(req.params.id, req.body, {
-        new: true,
-      });
+      const user = await User.findByIdAndUpdate(
+        { _id: req.params.userId },
+        { $set: req.body },
+        { runValidators: true, new: true }
+      ).select("-__v");
       if (!user)
         return res.status(404).json({ message: "no user with that ID" });
       res.json(user);
