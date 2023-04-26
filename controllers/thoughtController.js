@@ -1,9 +1,10 @@
-const { User, Thought, Reachtion } = require("../models");
+const { User, Thought, Reaction } = require("../models");
 
 module.exports = {
   async getThoughts(req, res) {
     try {
       const thoughts = await Thought.find();
+      console.log(thoughts);
       res.json(thoughts);
     } catch (err) {
       console.log(err);
@@ -25,12 +26,14 @@ module.exports = {
     }
   },
 
+  //CREATE THOUGHT
   async createThought(req, res) {
     try {
       const thought = await Thought.create(req.body);
       const user = await User.findOneAndUpdate(
         {
-          _id: req.body.userId,
+          username: req.body.username,
+          //_id: req.body.userId,
           thoughts: { $ne: thought._id },
         },
         {

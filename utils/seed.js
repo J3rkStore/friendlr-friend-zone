@@ -11,19 +11,19 @@ connection.once("open", async () => {
     {
       username: "dave",
       email: "dave@dave.com",
-      thoughts: {
-        thoughtText: "hey hey it's Fenriz.  I hope you're having a good Friday",
-      },
+      // thoughts: [
+      //   {
+      //     thoughtText:
+      //       "hey hey it's Fenriz.  I hope you're having a good Friday",
+      //   },
+      //   {
+      //     thoughtText: "hey hey hey hey hey",
+      //   },
+      // ],
     },
     {
       username: "dave2",
       email: "dave2@dave.com",
-      thoughts: [
-        {
-          thoughtText:
-            "hey hey it's Daveriz.  I hope you're having a good Friday",
-        },
-      ],
     },
     {
       username: "dave3",
