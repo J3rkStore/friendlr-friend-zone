@@ -32,7 +32,7 @@ MIT
 
 ## Credits
 
-Taran Leu
+Taran Leu.  Index.js from root, connection.js, and package.json mostly copied from student mini-project for UofU coding bootcamp.  Most of the functions and syntax were also also created copying formats from mini-project and activities.  Help with getting models, controllers, and routes working together from TA Max
 
 ## Questions
 
