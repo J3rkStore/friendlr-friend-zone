@@ -26,8 +26,8 @@ clone repo.  Install node modules by running "npm i" in your terminal in the dir
 [video](https://drive.google.com/file/d/1Q9IUhdA6_99lwksQ7nHQQHtLDtJwoRqH/view) demonstrating crud operations in Insomnia
 
 [![Usage]          // Title
-(https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg)] // Thumbnail
-(https://drive.google.com/file/d/1Q9IUhdA6_99lwksQ7nHQQHtLDtJwoRqH/view "Usage")    // Video Link
+(https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg)]
+(https://drive.google.com/file/d/1Q9IUhdA6_99lwksQ7nHQQHtLDtJwoRqH/view "Usage")
 
 
 ## License
