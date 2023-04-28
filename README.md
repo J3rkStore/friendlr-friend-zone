@@ -2,11 +2,13 @@
 
 ![badge](https://img.shields.io/badge/license-MIT-ff69b4)
 
+
 ## Description
 
 MongoDB social media app backend (benign). Allows creation of users, thoughts associated with the users, and reactions associated with the thoughts.
 
 ## Table of Contents
+
 
 - [Installation](#installation)
 - [Usage](#usage)
